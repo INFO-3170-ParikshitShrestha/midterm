@@ -27,12 +27,12 @@ world,
 { width: 40, height: 40 },
 { label: "MrK" }
 ),
-MsC: Box(
+MsB: Box(
 world,
 "pink",
 { x: Constants.WINDOW_WIDTH / 2, y: Constants.WINDOW_HEIGHT / 2 },
 { width: 40, height: 40 },
-{ label: "MsC" }
+{ label: "MsB" }
 ),
 TopBoundary: Boundary(
 world,

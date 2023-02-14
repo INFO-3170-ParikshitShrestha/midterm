@@ -38,7 +38,7 @@ export default (world, color, pos, size, extraOptions) => {
       frictionStatic: 0,
       isStatic: extraOptions.isStatic,
       isSleeping: extraOptions.isSleeping,
-      //velocity: { x: 1, y: 1 },
+      velocity: { x: 1, y: 1 },
     }
   );
   Matter.World.add(world, theBox);
